@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    <class name="Include_exclude_In_TsetNG.BusTicket">
+    <methods>
+    <include name="payment"></include>
+    <include name="Recept"></include>
+    </methods>
+    </class>
+    
+      <class name="Include_exclude_In_TsetNG.TrainTicket">
+      <methods>
+      <exclude name="Ticket"></exclude>
+      <include name="Ticket2"></include>
+      </methods>
+      </class>
+     
+      <class name="Include_exclude_In_TsetNG.BoolAirTicket">
+      <methods>
+      <exclude name="login"></exclude>
+      <include name="AirTicket"></include>
+      </methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

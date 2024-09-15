@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="smoke"></include>
+  <include name="sanity"></include>
+  <include name="re testing"></include>
+  <include name="dailybulid"></include>
+  <include name="weekly"></include>
+  <include name="monthly"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="GroupingInTestNG.Demo3"/>
+      <class name="GroupingInTestNG.Demo2"/>
+      <class name="GroupingInTestNG.Demo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

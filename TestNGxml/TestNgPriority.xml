@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="testNGcode.priorityintestNG2">
+      <methods>
+      <include name="details"></include>
+      <include name="payments"></include>
+      <include name="bookticket"></include>
+      <include name="signin"></include>
+      <include name="searchflight"></include>
+      <include name="signin"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
